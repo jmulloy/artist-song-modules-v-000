@@ -6,7 +6,7 @@ class Artist
 
   extend Memorable
   extend Findable
-  extend Paramable
+  extend Paramable 
 
   @@artists = []
 
