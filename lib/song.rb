@@ -11,7 +11,7 @@ class Song
 
   def initialize
     self.class.all << self
-    
+
   end
 
   # def self.find_by_name(name)
@@ -26,9 +26,9 @@ class Song
   #   @@songs.clear
   # end
 
-  def to_param
-    name.downcase.gsub(' ', '-')
-  end
+  # def to_param
+  #   name.downcase.gsub(' ', '-')
+  # end
 
   # def self.count
   #   self.all.count
